@@ -1,0 +1,10 @@
+{
+    "name": "vvseesee/redblacktree",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vvseesee\\Redblacktree\\": "src/"
+        }
+    },
+    "require": {}
+}
