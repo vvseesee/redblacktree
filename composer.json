@@ -6,5 +6,15 @@
             "Vvseesee\\Redblacktree\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vvseesee\\Redblacktree\\RedBlackTreeServiceProvider"
+            ],
+            "aliases": {
+                "RedBlackTree": "Vvseesee\\Redblacktree\\Facades\\RedBlackTree"
+            }
+        }
+    }
 }
